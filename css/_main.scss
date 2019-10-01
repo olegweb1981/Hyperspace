@@ -1,0 +1,116 @@
+html {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+body {
+    background: #312450;
+    font-size: 13pt;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.75;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.sidebar {
+    background-color: #362551;
+    width: 400px;
+    position: fixed;
+    text-align: right;
+    padding: 55px 55px 10px 55px;
+    height: 100%;
+
+    .inner {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+
+        nav {
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0 0 32px 0;
+
+                li {
+                    margin: 24px 0 0 0;
+                    opacity: 1;
+                    padding: 0;
+                    position: relative;
+
+                    &:first-shild {
+                        margin: 0;
+                    }
+
+                    &:nth-child(1) {
+                        transition-delay: 0.45s;
+                    }
+                    &:nth-child(2) {
+                        transition-delay: 0.65s;
+                    }
+                    &:nth-child(3) {
+                        transition-delay: 0.85s;
+                    }
+                    &:nth-child(4) {
+                        transition-delay: 1.05s;
+                    }
+
+                    a {
+                        transition: color 0.2s ease;
+                        border: 0;
+                        color: rgba(255, 255, 255, 0.35);
+                        display: block;
+                        font-size: 13px;
+                        font-weight: bold;
+                        letter-spacing: 4px;
+                        line-height: 22px;
+                        outline: 0;
+                        padding: 21px 0;
+                        position: relative;
+                        text-decoration: none;
+                        text-transform: uppercase;
+        
+                        &:hover {
+                            color: rgba(255, 255, 255, 0.55);
+                        }
+        
+                        &:before, &:after {
+                            border-radius: 0.2em;
+                            bottom: 0;
+                            content: '';
+                            height: 0.2em;
+                            position: absolute;
+                            right: 0;
+                            width: 100%;
+                        }
+
+                        &:before {
+                            background: #3c2c62;
+                        }
+
+                        &:after {
+                            background-image: linear-gradient(to right, #5e42a6, #b74e91);
+                            transition: max-width 0.2s ease;
+                        }
+                    }
+
+                    a.active {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
