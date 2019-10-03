@@ -42,15 +42,15 @@ body {
     }
 }
 
-.wrapper.style1 {
+.intro {
     background-color: #5e42a6;
 }
 
-.wrapper.style2 {
+.gallery {
     background-color: #5848B4;
 }
 
-.wrapper.style3 {
+.what-we-do {
     background-color: #B34C90;
 }
 
@@ -62,7 +62,7 @@ body {
     padding: 110px 100px 50px 111px;
 }
 
-#two>h1 {
+#two > h1 {
     color: #ffffff;
     font-weight: bold;
     line-height: 1.5;
@@ -70,7 +70,7 @@ body {
     font-size: 39px;
 }
 
-#two>p {
+#two > p {
     font-size: 22px;
     margin: 0 0 44px 0;
 }

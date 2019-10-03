@@ -8,3 +8,12 @@
 @import "buttons";
 @import "footer";
 @import "media";
+
+// tablet
+@import 'tablet/header';
+@import 'tablet/buttons';
+
+// mobile
+@import 'mobile/header';
+@import 'mobile/buttons';
+
