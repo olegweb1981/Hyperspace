@@ -1,0 +1,33 @@
+#one section,
+#two section,
+#three section {
+    display: flex;
+    flex-direction: row;
+    min-height: 495px;
+
+    h1 {
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 1.5;
+        margin: 0 0 18px 0;
+        font-size: 39px;
+    }
+
+    p {
+        font-size: 22px;
+        margin: 0 0 61px 0;
+    }
+}
+
+.img {
+    width: 496px;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 29px 110px 48px 110px;
+    width: 960px;
+}

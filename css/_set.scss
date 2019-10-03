@@ -1,0 +1,43 @@
+.set {
+    display: flex;
+    min-height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 66px;
+    border-radius: 5px;
+
+    h1 {
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 1.5;
+        margin: 0 0 5px 0;
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 22px;
+        padding-left: 88px;
+        margin: 0;
+    }
+
+    i {
+        border-radius: 100%;
+        background-color: white;
+        color: #B34C90;
+        padding: 14px 0px 0px 0px;
+        width: 55px;
+        height: 55px;
+        text-align: center;
+        font-size: 28px;
+        margin-right: 26px;
+    }
+}

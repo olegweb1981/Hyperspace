@@ -1,9 +1,5 @@
 #wrapper {
-    margin-left: 400px;
-}
-
-.wrapper.style1 {
-    background-color: #5e42a6;
+    margin-left: 395px;
 }
 
 .fullscreen {
@@ -14,7 +10,7 @@
     min-height: 100vh;
 
     .inner {
-        padding: 115px 115px 80px 115px;
+        padding: 62px 112px 80px 111px;
         max-width: 100%;
         width: 1280px;
 
@@ -23,12 +19,13 @@
             font-weight: bold;
             line-height: 1.5;
             margin: 0 0 30px 0;
-            font-size: 64px;
+            font-size: 61px;
         }
 
         p {
             font-size: 28px;
-            margin-bottom: 55px;
+            margin: 0 0 72px 0;
+            line-height: 48px;
 
             a {
                 border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
@@ -40,18 +37,6 @@
                     border: none;
                 }
             }
-        }
-
-        ul {
-
-            li {
-                list-style-type: none;
-            }
-        }
-
-        .action {
-            margin: 0;
-            padding: 0;
         }
     }
 }
