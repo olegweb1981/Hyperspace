@@ -21,13 +21,25 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+
     li {
         list-style-type: none;
     }
 }
 
+a {
+    border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+        color: white;
+        border: none;
+    }
+}
+
 #sidebar {
-    background-color: #362551;
+    background-color: $menu-bg-color;
     width: 396px;
     position: fixed;
     text-align: right;
@@ -43,15 +55,19 @@ body {
 }
 
 .intro {
-    background-color: #5e42a6;
+    background-color: $intro-bg-color;
 }
 
 .gallery {
-    background-color: #5848B4;
+    background-color: $gallery-bg-color;
 }
 
 .what-we-do {
-    background-color: #B34C90;
+    background-color: $what-we-do-bg-color;
+}
+
+.duo {
+    background-color: $intro-bg-color;
 }
 
 #two {
@@ -59,7 +75,7 @@ body {
     min-height: 100%;
     flex-direction: column;
     justify-content: center;
-    padding: 110px 100px 50px 111px;
+    padding: 110px 110px 50px 111px;
 }
 
 #two > h1 {

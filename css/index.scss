@@ -5,15 +5,33 @@
 @import "intro";
 @import "gallery";
 @import "set";
+@import "connect";
 @import "buttons";
 @import "footer";
 @import "media";
 
+
+// desctop
+@import 'desctop/nav';
+@import 'desctop/buttons';
+@import 'desctop/gallery';
+@import 'desctop/set-icons';
+@import 'desctop/connect';
+
 // tablet
 @import 'tablet/header';
 @import 'tablet/buttons';
+@import 'tablet/gallery';
+@import 'tablet/set-icons';
+@import 'tablet/connect';
+
+//portrait
+@import 'portrait/set-icons';
+@import 'portrait/connect';
 
 // mobile
 @import 'mobile/header';
 @import 'mobile/buttons';
-
+@import 'mobile/gallery';
+@import 'mobile/set-icons';
+@import 'mobile/connect';

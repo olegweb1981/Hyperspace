@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    min-height: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px 110px;
+    background-color: #4D2D81;
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        p {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.15);
+        }
+    
+        i {
+            border-left: 1px;
+            border-right: 1px;
+            padding: 0 15px;
+            margin: 0 15px;
+        }
+    }
+}
