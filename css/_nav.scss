@@ -38,7 +38,7 @@
             color: rgba(255, 255, 255, 0.55);
         }
 
-        &:before, &:after {
+        &:before {
             border-radius: 0.2em;
             bottom: 0;
             content: '';
@@ -46,17 +46,24 @@
             position: absolute;
             right: 0;
             width: 100%;
+            background-color: rgb(62, 44, 92);
         }
 
-        &:before {
-            background: #3c2c62;
+        &.active {
+            &:before {
+                background-image: linear-gradient(to right, #5e42a6, #b74e91);
+            }
         }
-
-        &:after {
-            background-image: linear-gradient(to right, #5e42a6, #b74e91);
-        }
+            
+        &:hover {
+            color: rgba(255, 255, 255, 0.55);
+        
+            &:before {
+                background-image: linear-gradient(to right, #5e42a6, #b74e91);
+            }
+        } 
     }
-    
+
     a.active {
         color: white;
     }

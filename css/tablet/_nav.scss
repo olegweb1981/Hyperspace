@@ -20,10 +20,18 @@
                 a {
                     letter-spacing: 2.5px;
                     padding: 28px 0;
-        
-                    &:after {
-                        background-image: linear-gradient(to right, #b74e91, #b74e91);
+
+                    &.active {
+                        &:before {
+                            background-image: linear-gradient(to right, #b74e91, #b74e91);
+                        }
                     }
+
+                    &:hover {
+                        &:before {
+                            background-image: linear-gradient(to right, #b74e91, #b74e91);
+                        }
+                    } 
                 }
             }
         }

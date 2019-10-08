@@ -1,0 +1,35 @@
+.inside {
+    display: flex;
+    flex-direction: column;
+    padding: 61px 237px;
+
+    h1 {
+        color: white;
+        font-size: 61px;
+        position: relative;
+        padding-bottom: 13px;
+
+        &:before {
+            border-radius: 3px;
+            bottom: 0;
+            content: '';
+            height: 3px;
+            position: absolute;
+            right: 0;
+            width: 100%;
+            background-image: linear-gradient(to right, #5e42a6, #b74e91);
+        }
+    }
+
+    p {
+        font-size: 22px;
+        color: rgba(255, 255, 255, 0.55);
+        margin: 0 0 40px 0;
+    }
+
+    img {
+        margin: 38px 0;
+        border-radius: 5px;
+        width: 100%;
+    }
+}

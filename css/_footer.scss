@@ -24,3 +24,29 @@
         }
     }
 }
+
+.lower {
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #2C1F40;
+    padding: 88px 237px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.15);
+
+        i {
+            border-left: 1px solid rgba(255, 255, 255, 0.15);
+            border-right: 1px solid rgba(255, 255, 255, 0.15);
+            padding: 0 28px;
+            margin: 0 28px;
+        }
+    }
+}

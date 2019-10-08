@@ -4,16 +4,29 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
 }
 
 .icons {
     display: flex;
     flex-direction: column;
     width: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.15);
     background-color: rgba(255, 255, 255, 0.05);
     padding: 66px;
-    border-radius: 5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+    &:first-child {
+        border-top: none;
+    }
+
+    &:nth-child(2) {
+        border-top: none;
+    }
+
+    &:nth-child(odd) {
+        border-right: 1px solid rgba(255, 255, 255, 0.15);
+    }
 
     h1 {
         color: #ffffff;
