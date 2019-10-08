@@ -12,26 +12,48 @@
 
 
 // desctop
+@import 'desctop/intro';
 @import 'desctop/nav';
 @import 'desctop/buttons';
 @import 'desctop/gallery';
 @import 'desctop/set-icons';
 @import 'desctop/connect';
+@import 'desctop/footer';
 
 // tablet
 @import 'tablet/header';
+@import 'tablet/nav';
+@import 'tablet/intro';
 @import 'tablet/buttons';
 @import 'tablet/gallery';
 @import 'tablet/set-icons';
 @import 'tablet/connect';
+@import 'tablet/footer';
 
 //portrait
+@import 'portrait/header';
+@import 'portrait/nav';
+@import 'portrait/intro';
+@import 'portrait/buttons';
+@import 'portrait/gallery';
 @import 'portrait/set-icons';
 @import 'portrait/connect';
+@import 'portrait/footer';
 
 // mobile
+@import 'mobile/intro';
 @import 'mobile/header';
 @import 'mobile/buttons';
 @import 'mobile/gallery';
 @import 'mobile/set-icons';
 @import 'mobile/connect';
+@import 'mobile/footer';
+
+//mobile-xs
+@import 'mobile-xs/intro';
+@import 'mobile-xs/header';
+@import 'mobile-xs/buttons';
+@import 'mobile-xs/gallery';
+@import 'mobile-xs/set-icons';
+@import 'mobile-xs/connect';
+@import 'mobile-xs/footer';

@@ -1,35 +1,4 @@
-@media screen and (max-width: $xl-width) {
-
-    #wrapper {
-        margin-left: 312px;
-    }
-
-    #intro {
-
-        .inner {
-            padding: 66px 112px 80px 69px;
-
-            h1 {
-                margin: 0 0 24px 0;
-                font-size: 48px;
-            }
-
-            p {
-                font-size: 22px;
-                margin: 0 0 52px 0;
-                line-height: 1.7;
-            }
-        }
-    }
-
-}
-
 @media screen and (max-width: $lg-width) {
-
-    #sidebar {
-        width: 312px;
-        padding: 40px 55px 10px 55px;
-    }
 }
 
 @media screen and (max-width: $md-width) {

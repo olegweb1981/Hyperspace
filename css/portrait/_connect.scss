@@ -1,0 +1,45 @@
+@media screen and (max-width: $md-width) {
+
+    .connect {
+        padding: 66px 64px 32px 64px;
+
+        p {
+            padding-right: 20px;
+        }
+    }
+
+    .touch {
+        flex-direction: column;
+    }
+    
+    .form {
+        width: 100%;
+        padding-bottom: 75px;
+        border-right: none;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+        padding-right: 0;
+    }
+    
+    .form-colum {
+        width: 100%;
+        padding-right: 0;
+
+        &:nth-child(1) {
+            padding-right: 12px;
+        }
+        &:nth-child(2) {
+            padding-left: 12px;
+        }
+    }
+
+    .message {
+
+        &:nth-child(2) {
+            padding-left: 0;
+        }
+    }
+
+    .contacts {
+        padding: 60px 0 0 0;
+    }
+}

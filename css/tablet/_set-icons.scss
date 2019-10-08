@@ -1,0 +1,48 @@
+@media screen and (max-width: $lg-width) {
+
+    #two {
+        padding: 66px 127px 75px 64px;
+    }
+    
+    .two {
+    
+        h1 {
+            margin: 0 0 14px 0;
+            font-size: 28px;
+        }
+        
+        p {
+            font-size: 16px;
+            margin: 0 48px 35px 0;
+        }
+    }
+    
+    .set {
+
+        margin-bottom: 38px;
+
+        h1 {
+            font-size: 18px;
+        }
+        
+        
+        p {
+            font-size: 16px;
+            margin: 0;
+            line-height: 28px;
+            padding-left: 64px;
+        }
+
+        i {
+            padding: 10px 0px 0px 0px;
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    .icons {
+        padding: 46px 52px 50px 48px;
+    }
+}

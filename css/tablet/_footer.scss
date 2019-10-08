@@ -1,0 +1,11 @@
+@media screen and (max-width: $lg-width) {
+
+    .footer {
+        margin-left: 0;
+        padding: 42px 64px;
+
+        .footer p {
+            font-size: 13px;
+        }
+    } 
+}

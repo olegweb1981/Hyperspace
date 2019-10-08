@@ -1,0 +1,25 @@
+@media screen and (max-width: $lg-width) {
+
+    #intro {
+        .inner {
+            padding: 144px 112px 80px 64px;
+
+            h1 {
+                margin: 0 0 22px 0;
+                font-size: 44px;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 1.75;
+                margin: 0 0 50px 0;
+            }
+        }
+    }
+
+    .button {
+        font-size: 10px;
+        letter-spacing: 3px;
+        padding: 16px 33px;
+    }
+}

@@ -1,3 +1,28 @@
-@media screen and (max-width: $xl-width) {
+@media screen and (max-width: $lg-width) {
+
+    .sidebar-desctop {
+        width: 100%;
+        position: fixed;
+        height: 56px;
+        padding: 0;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        text-align: center;
+
+        .inner {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+        }
+
+        li {
+            margin: 0 15px 0 15px;
+        }
+    }
+
+    #wrapper {
+        margin-left: 0;
+    }
     
 }

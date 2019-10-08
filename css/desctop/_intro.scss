@@ -1,0 +1,25 @@
+@media screen and (max-width: $xl-width) {
+
+    #wrapper {
+        margin-left: 312px;
+    }
+
+    #intro {
+
+        .inner {
+            padding: 66px 112px 80px 69px;
+
+            h1 {
+                color: #ffffff;
+                margin: 0 0 24px 0;
+                font-size: 48px;
+            }
+
+            p {
+                font-size: 22px;
+                margin: 0 0 52px 0;
+                line-height: 1.7;
+            }
+        }
+    }
+}

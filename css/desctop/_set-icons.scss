@@ -1,29 +1,32 @@
 @media screen and (max-width: $xl-width) {
 
     #two {
-        padding: 69px 70px 50px 69px;
+        padding: 69px 119px 81px 69px;
     }
     
-    #two > h1 {
-        line-height: 1.5;
-        margin: 0 0 15px 0;
-        font-size: 30px;
-    }
-    
-    #two > p {
-        font-size: 17px;
-        margin: 0 48px 35px 0;
-        line-height: 1.8;
+    .two {
+        
+        h1 {
+            margin: 0 0 15px 0;
+            font-size: 30px;
+        }
+        
+        p {
+            font-size: 17px;
+            margin: 0 48px 35px 0;
+            line-height: 1.8;
+        }
     }
 
     .set {
-        width: 1160px;
+        margin-bottom: 46px;
     }
 
     .icons {
         padding: 52px 52px 53px 52px;
     
         h1 {
+            color: #ffffff;
             margin: 0 0 2px 0;
             font-size: 19px;
         }

@@ -1,0 +1,18 @@
+@media screen and (max-width: $xs-width) {
+
+    .aside {
+        flex-direction: column;
+
+    }
+
+    .form-colum {
+
+        &:nth-child(1) {
+            padding-right: 0;
+        }
+        &:nth-child(2) {
+            padding-left: 0;
+        }
+    }
+    
+}

@@ -1,0 +1,50 @@
+@media screen and (max-width: $xl-width) {
+    
+    .connect {
+        padding: 69px 110px 34px 69px;
+
+        h1 {
+            color: #ffffff;
+            line-height: 1.5;
+            margin: 0 0 15px 0;
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 17px;
+            margin: 0 0 33px 0;
+            line-height: 1.8;
+        }
+    }
+
+    .form {
+        width: 63%;
+        padding-right: 8px;
+        padding-bottom: 46px;
+    }
+    
+    .form-colum {
+        padding-right: 26px;
+    }
+    
+    .aside-input {
+        height: 46px;
+        margin: 0 0 24px 0;
+    }
+    
+    .aside-label {
+        font-size: 19px;
+        margin: 0 0 11px 0;
+    }
+    
+    .message-text {
+        margin-bottom: 44px;
+        height: 180px;
+    }
+    
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 34px;
+    }
+}

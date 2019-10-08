@@ -1,0 +1,11 @@
+@media screen and (max-width: $md-width) {
+
+    #intro p br {
+        display: none;
+    }
+
+    #intro .inner {
+        padding: 144px 70px 80px 64px;
+    }
+
+}
